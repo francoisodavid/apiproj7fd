@@ -1,1 +1,1 @@
-web: gunicorn glacial-mesa-23745:app
+web: gunicorn app:app
