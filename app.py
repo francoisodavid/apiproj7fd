@@ -17,11 +17,6 @@ df1 = pd.read_csv('dfXL_for_prod.csv')
 df2 = df1.drop(['TARGET','SK_ID_CURR','PRED','PREDproba','cluster'],axis=1, inplace=False)
 #TARGET 	SK_ID_CURR 	PRED 	PREDproba 	cluster
 print('df2_columns',df2.columns)
-#df2 = df1[['EXT_SOURCE_2', 'EXT_SOURCE_3', 'EXT_SOURCE_1']]
-# df2 = df1[['EXT_SOURCE_2', 'EXT_SOURCE_3', 'EXT_SOURCE_1', 'DAYS_EMPLOYED',
-#        'NAME_EDUCATION_TYPE_Higher education', 'DAYS_EMPLOYED_PERC',
-#        'APPROVED_AMT_DOWN_PAYMENT_MAX', 'CC_AMT_DRAWINGS_ATM_CURRENT_MEAN',
-#        'PAYMENT_RATE', 'INSTAL_AMT_PAYMENT_SUM']]
 
  
 print(df2.shape)
