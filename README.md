@@ -11,8 +11,8 @@ Return a score given customer features
 
 # Model part
 - LGB model
-- Dashboard showing customer's information, and comparison to others
-- Dashboard showing credit score and its local/global interpretation
+- Le modèle est chargé en parallèle de la base de donnée client
+- Il est appelé pour simplement retourner un score compris entre 0 et 1 reflétant le risque de non remboursement
 
 # Characteristics
 - Using Flask and Python
