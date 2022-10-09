@@ -16,6 +16,7 @@ Return a score given customer features
 
 # Characteristics
 - Using Flask and Python
+- Build for 2 version of dataframe smal or large (XL), not used at the moment
 
 # Deployed on Heroku at :
 https://appp7fd.herokuapp.com/predict
