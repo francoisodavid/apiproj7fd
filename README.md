@@ -1,24 +1,24 @@
-# Prediction-Using-LGB model-Flask-Web-Application
+# API de scoring
 
-<h2>Dependencies for running the web app</h2>
+# Project
+Projet 7 OpenClassRooms
 
-<li>
-<ol>Flask==1.1.2</ol>
-<ol>joblib==1.0.1</ol>
-<ol>numpy==1.20.1</ol>
-<ol>pandas==1.2.4</ol>
-<ol>plotly==5.6.0</ol>
-</li>
+# Data 
+Sourced from: https://www.kaggle.com/c/home-credit-default-risk/data
 
-<h2>Project Folder Structure</h2>
+# Objective 
+Return a score given customer features
 
-<img src="static/images/flask-icon.png">
+# Model part
+- LGB model
+- Dashboard showing customer's information, and comparison to others
+- Dashboard showing credit score and its local/global interpretation
 
-<p>To run the app navigate to the folder where the webapp is located and start command prompt and type "python app.py"</p>
-<img src="static/images/accueil.png">
+# Characteristics
+- Using Flask and Python
 
-<h2>Web App Screenshots<h2>
-<img src="static/images/dashboard.png">
-  
- <h2>Link for using decision trees and random forest jupyter notebook below </h2>
- <a href="https://github.com/francoisodavid/appiex">Prediction-Using-LGB model-Flask-Web-Application</a>
+# Deployed on Heroku at :
+https://appp7fd.herokuapp.com/predict
+
+
+
