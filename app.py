@@ -11,8 +11,7 @@ import numpy as np
 
 app = flask.Flask(__name__, template_folder='templates')
 
-with open(f'model/model_lgb_clf_light.sav', 'rb') as f:
-    model = load(f)
+model = load('model/model_lgb_clf_light.sav')
 df1 = pd.read_csv('dfXL_for_prod.csv')
 df2 = df1.drop(['TARGET','SK_ID_CURR','PRED','PREDproba','cluster'],axis=1, inplace=False)
 #TARGET 	SK_ID_CURR 	PRED 	PREDproba 	cluster
